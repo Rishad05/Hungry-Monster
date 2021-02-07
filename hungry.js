@@ -12,11 +12,11 @@
      let mealName = "";
      if (data.meals) {
          data.meals.forEach(meal => {
-             mealName = mealName + `<div class="meal"><img class="strMealThumb" src = "${meal.strMealThumb}" alt = "meal">
-                     <h3 class="meal-name">${meal.strMeal}</h3></div>`;
+             mealName = mealName + `<div class="meal"><img src = "${meal.strMealThumb}" alt = "meal">
+                     <h3>${meal.strMeal}</h3></div>`;
          });
      } else {
-         mealName = "wrong input";
+         mealName = "!!There is no meal!!";
      }
      mealsDiv.innerHTML = mealName;
  }

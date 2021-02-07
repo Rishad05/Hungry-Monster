@@ -1,4 +1,4 @@
-.strMealThumb {
+.meal img {
     width: 250px;
 }
 
@@ -16,7 +16,9 @@
     width: 300px;
 }
 
-.meal-name {
+.meal h3 {
     font-size: 45px;
     color: rgba(250, 128, 114, 0.836);
+    background-color: rgba(211, 222, 255, 0.836);
+    padding: 5px;
 }
