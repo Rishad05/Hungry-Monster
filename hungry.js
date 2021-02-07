@@ -37,7 +37,7 @@
 <p>${meal.strMeasure3}${meal.strIngredient3}</p>
 <p>${meal.strMeasure4}${meal.strIngredient4}</p>
 <p>${meal.strMeasure5}${meal.strIngredient5}</p>
-<p>${meal.strMeasure7}${meal.strIngredient6}</p>
-<p>${meal.strMeasure6}${meal.strIngredient7}</p>
-<p>${meal.strMeasure7}${meal.strIngredient8}</p> </div>`;
+<p>${meal.strMeasure6}${meal.strIngredient6}</p>
+<p>${meal.strMeasure7}${meal.strIngredient7}</p>
+<p>${meal.strMeasure8}${meal.strIngredient8}</p> </div>`;
  }
