@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(238, 197, 192);
+}
+
 .meal img {
     width: 250px;
 }
