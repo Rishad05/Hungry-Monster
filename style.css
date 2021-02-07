@@ -26,3 +26,10 @@ body {
     background-color: rgba(211, 222, 255, 0.836);
     padding: 5px;
 }
+
+.card {
+    width: 250px;
+    border: 1px solid rosybrown;
+    border-radius: 20px;
+    padding: 20px;
+}

@@ -29,7 +29,7 @@
  }
  const renderIngredient = meal => {
      const ingredientList = document.getElementById("ingredientList");
-     ingredientList.innerHTML = `<img id="image" src="${meal.strMealThumb}">
+     ingredientList.innerHTML = `<div class="card"><img src="${meal.strMealThumb}">
 <h1> ${meal.strMeal}</h1>
 <h3>ingredients</h3>
 <p>${meal.strMeasure1}${meal.strIngredient1}</p>
@@ -39,5 +39,5 @@
 <p>${meal.strMeasure5}${meal.strIngredient5}</p>
 <p>${meal.strMeasure7}${meal.strIngredient6}</p>
 <p>${meal.strMeasure6}${meal.strIngredient7}</p>
-<p>${meal.strMeasure7}${meal.strIngredient8}</p>`;
+<p>${meal.strMeasure7}${meal.strIngredient8}</p> </div>`;
  }
